@@ -1,0 +1,18 @@
+{
+  "name": "optimism-connection",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/main.ts"
+  },
+  "dependencies": {
+    "@uniswap/sdk": "^3.0.3",
+    "@uniswap/v3-sdk": "^3.13.1",
+    "ethers": "^6.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
